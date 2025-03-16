@@ -7,7 +7,7 @@ from sklearn.linear_model import LinearRegression
 import streamlit as st
 
 # Load and prepare the data
-housing_data = pd.read_csv('/Users/abhilashdhal/OmixHub/Housing.csv')
+housing_data = pd.read_csv('./Housing.csv')
 
 # Select the most important features (area, bedrooms, bathrooms, stories, and mainroad)
 selected_features = ['area', 'bedrooms', 'bathrooms', 'stories']
